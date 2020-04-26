@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/aes128.h
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+time.h
+-
+openssl/aes.h
+-
+iostream
+-
+
+/home/zzg/AES128/src/aes128.cc
+aes128.h
+/home/zzg/AES128/src/aes128.h
+
